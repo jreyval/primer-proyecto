@@ -8,6 +8,7 @@ export const addOne = (contador)=>({
     payload: contador
 })
 
+
 export default (state=initialState, action)=>{
     switch (action.type) {
         case ADDONE:
